@@ -7958,6 +7958,32 @@ i {
 
 @media only screen and (max-width: 575.98px) {
 
+    body,
+        html {
+            overflow: auto !important;
+        }
+    
+        #smooth-wrapper {
+            position: relative !important;
+            height: auto !important;
+            overflow: visible !important;
+        }
+    
+        #smooth-content {
+            position: relative !important;
+            height: auto !important;
+            overflow: visible !important;
+        }
+
+
+            
+
+
+
+
+
+  
+
     h1,
     .h1,
     .light-title {
