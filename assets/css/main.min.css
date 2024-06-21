@@ -7956,33 +7956,45 @@ i {
     }
 }
 
+/* @media only screen and (max-width: 300.98px) { */
 @media only screen and (max-width: 575.98px) {
 
     body,
-        html {
-            overflow: auto !important;
-        }
-    
-        #smooth-wrapper {
-            position: relative !important;
-            height: auto !important;
-            overflow: visible !important;
-        }
-    
-        #smooth-content {
-            position: relative !important;
-            height: auto !important;
-            overflow: visible !important;
-        }
+    html {
+        overflow: auto !important;
+    }
+
+    #smooth-wrapper {
+        position: relative !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    #smooth-content {
+        position: relative !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+       
+    }
+
+    .banner .container{
+        margin-top: 1695px;
+    }
+     
 
 
-            
 
 
 
 
 
-  
+
 
     h1,
     .h1,
@@ -8305,6 +8317,27 @@ i {
 }
 
 @media only screen and (max-width: 424.98px) {
+     body,
+    html {
+        overflow: auto !important;
+    }
+
+    #smooth-wrapper {
+        position: relative !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    #smooth-content {
+        position: relative !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    .banner{
+        display: block;
+
+    }
     .banner-five .banner-five__single {
         padding: 0px 15px
     }
