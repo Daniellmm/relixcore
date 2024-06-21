@@ -7965,7 +7965,7 @@ i {
     }
 
     #smooth-wrapper {
-        position: relative !important;
+        position: absolute !important;
         height: auto !important;
         overflow: visible !important;
     }
@@ -7976,17 +7976,29 @@ i {
         overflow: visible !important;
     }
 
-    .banner{
+    .banner {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+
+    }
+
+    .banner .container {
+        margin-top: 1695px;
+    }
+
+    .slick-slide {
+        height: 16%;
+        min-height: 1px;
+    }
+    
+    .row gaper{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
        
     }
 
-    .banner .container{
-        margin-top: 1695px;
-    }
-     
 
 
 
@@ -8316,14 +8328,16 @@ i {
     }
 }
 
-@media only screen and (max-width: 424.98px) {
-     body,
+@media only screen and (max-width: 404.98px) {
+
+    body,
     html {
         overflow: auto !important;
+        margin: auto;
     }
 
     #smooth-wrapper {
-        position: relative !important;
+        position: absolute !important;
         height: auto !important;
         overflow: visible !important;
     }
@@ -8334,11 +8348,19 @@ i {
         overflow: visible !important;
     }
 
-    .banner{
-        display: block;
+    .banner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
 
     }
-    .banner-five .banner-five__single {
+
+    .banner .container {
+        margin-top: 1695px;
+    }
+
+
+    /* .banner-five .banner-five__single {
         padding: 0px 15px
     }
 
@@ -8353,7 +8375,7 @@ i {
 
     .thumb-radio .radio {
         margin: 0px 0px
-    }
+    } */
 }
 
 @media only screen and (min-width: 1440px) {
